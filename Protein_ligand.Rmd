@@ -8,18 +8,38 @@ output: github_document
 usar o servidor [ClusPro](https://cluspro.bu.edu/home.php).
 
 carregar o arquivo .pdb da proteína e do ligante e selecionar o modo.
-![alt text](https://raw.githubusercontent.com/diegogotex/protein_ligand/master/images/cluspro.png "ClusPro interface")
+```{r, out.width='90%', fig.align='center', fig.cap="ClusPro interface",message=FALSE, warning=FALSE, echo=F}
+
+knitr::include_graphics("https://raw.githubusercontent.com/diegogotex/protein_ligand/master/images/cluspro.png")
+
+```
 
 ### RING
-1. Editar o arquivo de saída do ClusPro, modificando o nome da cadeia;
-![alt text](https://raw.githubusercontent.com/diegogotex/protein_ligand/master/images/alt_pdb.png "alterar o arquivo .pdb")
-2. Utilizar o .pdb editado como entrada no [RING](http://protein.bio.unipd.it/ring/);
+**1** Editar o arquivo de saída do ClusPro, modificando o nome da cadeia;
 
-![alt text](https://raw.githubusercontent.com/diegogotex/protein_ligand/master/images/ring_in.png "ring input")
-3. Baixar os arquivos do RING.
-![alt text](https://raw.githubusercontent.com/diegogotex/protein_ligand/master/images/ring_out.png "ring input")
+```{r, out.width='100%', fig.align='center', message=FALSE, warning=FALSE, echo=F}
+
+knitr::include_graphics("https://raw.githubusercontent.com/diegogotex/protein_ligand/master/images/alt_pdb.png")
+
+```
 
 
+**2** Utilizar o .pdb editado como entrada no [RING](http://protein.bio.unipd.it/ring/);
+
+```{r, out.width='60%', fig.align='center', message=FALSE, warning=FALSE, echo=F}
+
+knitr::include_graphics("https://raw.githubusercontent.com/diegogotex/protein_ligand/master/images/ring_in.png")
+
+```
+
+
+**3** Baixar os arquivos do RING.
+
+```{r, out.width='60%', fig.align='center', message=FALSE, warning=FALSE, echo=F}
+
+knitr::include_graphics("https://raw.githubusercontent.com/diegogotex/protein_ligand/master/images/ring_out.png")
+
+```
 
 
 
