@@ -1,6 +1,6 @@
 ---
 title: "Resíduos interagindo em docking proteína-ligante"
-output: html_document
+output: github_document
 ---
 
 ### Docking
